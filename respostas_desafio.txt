@@ -1,0 +1,11 @@
+1- Herança é um mecanismo utilizado para modelagem de dados em Orientação a Objeto.
+A base teórica para o mecanismo é a de que uma classe (descrição que define comportamento e características de objetos), pode ser parte de uma hierarquia de classes, acumulando características e comportamentos das classes "superiores" (chamadas de super-classes).
+Os benefícios de uma boa utilização da herança são o encapsulamento e reaproveitamento de código.
+
+2- Letra "E", nenhuma das anteriores. O verbo correto é o PATCH.
+
+3- Letra "D"
+
+4- O código está incorreto, pois ocorre uma tentativa de sobrecarga (overload) da função andar.
+Como Python não suporta sobrecarga de métodos diretamente, durante a execução do código, a última definição de andar substitui a primeira e a linha "joao.andar(2)" gera um erro de índice.
+Para aplicar uma sobrecarga, é necessário juntar as duas funções "andar" e processar os argumentos para identificar e aplicar o comportamento desejado.
