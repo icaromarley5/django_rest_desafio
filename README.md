@@ -36,7 +36,7 @@ Atributos e restrições:
 #### Observações
 - As remoções tanto no Django Admin quanto na API são feitas de forma lógica (soft-delete) através de um arquivamento dos dados. 
 - Os registros deletados são armazenados nas tabelas equivalentes ClienteArquivo e EnderecoArquivo
-- As tabelas ClienteArquivo e EnderecoArquivo podem ser acessadas a partir do Django Admin ao remover o caractere de comentário `#` nas linhas 18-20 de app.admin.py
+- As tabelas ClienteArquivo e EnderecoArquivo podem ser acessadas a partir do Django Admin ao comentar as linhas 20 e 25 de app.admin.py
 
 ## Instalação (terminal)
 

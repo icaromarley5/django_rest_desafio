@@ -12,9 +12,14 @@ class EnderecoAdmin(admin.ModelAdmin):
 
 admin.site.register(Cliente)
 
+
 """
 Archives
 """
-# from app.models import ClienteArquivo, EnderecoArquivo
-# admin.site.register(ClienteArquivo)
-# admin.site.register(EnderecoArquivo)
+
+'''
+from app.models import ClienteArquivo, EnderecoArquivo
+
+admin.site.register(ClienteArquivo)
+admin.site.register(EnderecoArquivo)
+'''
